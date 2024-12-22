@@ -1,2 +1,5 @@
-# semantic-chat-search
-An AI-powered semantic search tool to explore and retrieve contextually relevant messages across multiple chat platforms using Retrieval-Augmented Generation (RAG).
+# Semantic Chat Search
+
+Semantic Chat Search is an AI-powered tool that enables contextually aware search across your chat histories from multiple platforms like **Skype**, **WhatsApp**, **Telegram**, **Facebook Messenger**, **Instagram DMs**, **Discord**, and **Slack**. Unlike traditional keyword-based search, it leverages **Retrieval-Augmented Generation (RAG)** to provide more accurate, meaning-based results by understanding the context behind your messages. This project builds a semantic search index from your chat archives, allowing you to retrieve relevant information quickly and efficiently.
+
+The system works by extracting chat data from various platforms, converting the text into high-dimensional vectors using language models like BERT, and then using a RAG model to return semantically relevant messages. It’s scalable, cross-platform, and open-source, with the flexibility to add new platforms and improve the search functionality. Contributions are welcome, and detailed instructions for integration and usage can be found in the repository.
